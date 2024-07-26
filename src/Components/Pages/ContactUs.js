@@ -111,7 +111,7 @@ export function ContactUs() {
         </div>
       </div>
 {/* Map Section */}
-<div className="w-full bg-gray-100 p-8 rounded-lg shadow-lg relative mt-36 mb-36">
+<div className="w-full bg-gray-100 p-8 rounded-lg shadow-lg relative mt-36 mb-36 hover:bg-gray-200 hover:shadow-xl hover:-translate-y-2 transition duration-300 ease-in-out transform">
   <img
     src={MapImage}
     alt="Map Background"
@@ -130,6 +130,7 @@ export function ContactUs() {
     <div className="w-40 h-1 bg-green-700 mt-4"></div> {/* Green line */}
   </div>
 </div>
+
 
     </section>
   );

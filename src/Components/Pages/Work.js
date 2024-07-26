@@ -23,7 +23,11 @@ function CountUp({ end, duration }) {
     return () => clearInterval(timer);
   }, [end, duration]);
 
-  return <span className="text-4xl font-extrabold">{count}</span>;
+  return (
+    <span className="text-4xl font-extrabold transform transition-transform duration-300 hover:translate-y-1 hover:text-red-500">
+      {count}
+    </span>
+  );
 }
 
 export function Work() {
@@ -31,19 +35,19 @@ export function Work() {
     <section className="flex flex-col items-center justify-center min-h-screen bg-gray-50 p-6">
       {/* What We Do Section */}
       <div className="w-full max-w-4xl mb-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-0 text-center">What We Do</h1>
+        <h1 className="text-4xl font-bold text-gray-900 mb-0 text-center transform transition-transform duration-300 hover:translate-y-1 hover:text-red-500">
+          What We Do
+        </h1>
       </div>
 
       {/* Story About Us Section */}
       <div className="w-full max-w-4xl mb-8">
         <div className="relative text-center mb-6">
-          <h2 className="text-3xl font-semibold text-gray-900 inline-block pb-2">
+          <h2 className="text-3xl font-semibold text-gray-900 inline-block pb-2 transform transition-transform duration-300 hover:translate-y-1 hover:text-red-500">
             Story About Us
-            <span 
+            <span
               className="block w-24 h-1 bg-red-500 mt-2 mx-auto"
-              style={{ 
-                boxShadow: '0 4px 6px rgba(0, 0, 0, 1)' 
-              }}
+              style={{ boxShadow: '0 4px 6px rgba(0, 0, 0, 1)' }}
             ></span>
           </h2>
         </div>
@@ -57,41 +61,65 @@ export function Work() {
       {/* Image Gallery Section */}
       <div className="w-full max-w-4xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         <div className="flex items-center justify-center p-4">
-          <img src={Project1} alt="Project 1" className="w-full h-64 object-cover rounded-lg" />
+          <img
+            src={Project1}
+            alt="Project 1"
+            className="w-full h-64 object-cover rounded-lg transform transition-transform duration-300 hover:scale-105"
+          />
         </div>
         <div className="flex items-center justify-center p-4">
-          <img src={Project2} alt="Project 2" className="w-full h-64 object-cover rounded-lg" />
+          <img
+            src={Project2}
+            alt="Project 2"
+            className="w-full h-64 object-cover rounded-lg transform transition-transform duration-300 hover:scale-105"
+          />
         </div>
         <div className="flex items-center justify-center p-4">
-          <img src={Project3} alt="Project 3" className="w-full h-64 object-cover rounded-lg" />
+          <img
+            src={Project3}
+            alt="Project 3"
+            className="w-full h-64 object-cover rounded-lg transform transition-transform duration-300 hover:scale-105"
+          />
         </div>
       </div>
 
       {/* Count Section */}
       <div className="w-full bg-gradient-to-b from-[#003300] to-[#9ae1a0] text-white flex justify-between items-center py-10 mt-8">
-      <div className="border-l-2 border-white h-12 mx-4"></div> {/* Vertical Line */}
+        <div className="border-l-2 border-white h-12 mx-4"></div> {/* Vertical Line */}
         <div className="text-center px-4">
           <CountUp end={123} duration={2000} />
-          <p className="mt-2 text-m font-bold">Happy Clients</p>
+          <p className="mt-2 text-m font-bold transform transition-transform duration-300 hover:translate-y-1 hover:text-red-500">
+            Happy Clients
+          </p>
         </div>
         <div className="border-l-2 border-white h-12 mx-4"></div> {/* Vertical Line */}
         <div className="text-center px-4">
           <CountUp end={15} duration={2000} />
-          <p className="mt-2 text-m font-bold">Awards</p>
+          <p className="mt-2 text-m font-bold transform transition-transform duration-300 hover:translate-y-1 hover:text-red-500">
+            Awards
+          </p>
         </div>
         <div className="border-l-2 border-white h-12 mx-4"></div> {/* Vertical Line */}
         <div className="mx-8">
-          <img src={Icon} alt="Icon" className="w-16 h-16 mx-auto" />
+          <img
+            src={Icon}
+            alt="Icon"
+            className="w-16 h-16 mx-auto transform transition-transform duration-300 hover:scale-105"
+          />
         </div>
         <div className="border-l-2 border-white h-12 mx-4"></div> {/* Vertical Line */}
         <div className="text-center px-4">
           <CountUp end={99} duration={2000} />
-          <p className="mt-2 text-m font-bold">Cups of Coffee</p>
+          <p className="mt-2 text-m font-bold transform transition-transform duration-300 hover:translate-y-1 hover:text-red-500">
+            Cups of Coffee
+          </p>
         </div>
         <div className="border-l-2 border-white h-12 mx-4"></div> {/* Vertical Line */}
         <div className="text-center px-4">
           <CountUp end={123} duration={2000} />
-          <p className="mt-2 text-m font-bold">Members</p>
+          <p className="mt-2 text-m font-bold transform transition-transform duration-300 hover:translate-y-1 hover:text-red-500">
+            Members
+          </p>
         </div>
         <div className="border-l-2 border-white h-12 mx-4"></div> {/* Vertical Line */}
       </div>
