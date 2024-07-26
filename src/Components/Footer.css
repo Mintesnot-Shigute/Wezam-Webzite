@@ -1,0 +1,32 @@
+/* src/Components/Footer.css */
+
+.footer {
+    width: 100%;
+    background-color: #124b2f; /* Dark green background */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+  }
+  
+  .footer-links {
+    margin-bottom: 0.5rem; /* Space between links and text */
+  }
+  
+  .footer-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1rem; /* Adjust as needed */
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #d4f2e7; /* Light green on hover */
+  }
+  
+  .footer-text {
+    font-size: 0.875rem; /* Small text size */
+  }
+  

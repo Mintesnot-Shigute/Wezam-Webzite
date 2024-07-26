@@ -1,0 +1,5 @@
+
+.hover-underline-green:hover {
+  text-decoration: underline !important;
+  text-decoration-color: #10B981 !important; /* Tailwind green-500 color */
+}

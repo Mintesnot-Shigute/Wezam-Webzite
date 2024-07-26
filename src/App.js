@@ -1,24 +1,34 @@
-import logo from './logo.svg';
+// src/App.js
+import React from 'react';
 import './App.css';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Navbar from './Components/Navbar';
+import { Intro } from './Components/Pages/Intro';
+import { Work } from './Components/Pages/Work';
+import { Service } from './Components/Pages/Service';
+import { ContactUs } from './Components/Pages/ContactUs';
+import { Footer } from './Components/Footer'; // Import the Footer component
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <div className="pt-16"> {/* Adjusted padding to accommodate fixed navbar */}
+        <div id="intro">
+          <Intro />
+        </div> 
+        <div id="work">
+          <Work />
+        </div>
+        <div id="service">
+          <Service />
+        </div>
+        <div id="contact">
+          <ContactUs />
+        </div>
+      </div>
+      <Footer /> {/* Add the Footer component here */}
+    </Router>
   );
 }
 
