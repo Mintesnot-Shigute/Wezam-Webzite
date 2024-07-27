@@ -21,7 +21,7 @@ export function Intro() {
       <div className="absolute bottom-36 w-full text-center">
         <div className="w-24 h-0.5 bg-white mx-auto mb-10"></div> {/* Horizontal line */}
         <a
-          href="#learn-more"
+          href="#work"
           className="text-white border border-white px-4 py-2 rounded transition transform hover:scale-110 hover:bg-white hover:text-blue-700"
         >
           Learn More
