@@ -15,7 +15,7 @@ export function ContactUs() {
           <div className="bg-gray-100 p-4 rounded-lg shadow-md flex items-center gap-4">
             <FaPhone className="text-green-500 text-6xl" />
             <div>
-              <h3 className="text-xl font-semibold text-gray-900">Phone Number</h3>
+              <h3 className="text-xl font-semibold text-green-700 ">PHONE NUMBER</h3>
               <p className="text-gray-700">+251 116 634 401</p>
             </div>
           </div>
@@ -23,7 +23,7 @@ export function ContactUs() {
           <div className="bg-gray-100 p-4 rounded-lg shadow-md flex items-center gap-4">
             <FaMapMarkerAlt className="text-green-500 text-6xl" />
             <div>
-              <h3 className="text-xl font-semibold text-gray-900">Address</h3>
+              <h3 className="text-xl font-semibold text-green-700">ADDRESS</h3>
               <p className="text-gray-700">Addis Ababa, Ethiopia</p>
             </div>
           </div>
@@ -31,7 +31,7 @@ export function ContactUs() {
           <div className="bg-gray-100 p-4 rounded-lg shadow-md flex items-center gap-4">
             <FaEnvelope className="text-green-500 text-6xl" />
             <div>
-              <h3 className="text-xl font-semibold text-gray-900">Email</h3>
+              <h3 className="text-xl font-semibold text-green-700">EMAIL</h3>
               <p className="text-gray-700">info@wezam.com</p>
             </div>
           </div>
