@@ -16,7 +16,9 @@ export function ContactUs() {
             <FaPhone className="text-green-500 text-6xl" />
             <div>
               <h3 className="text-xl font-semibold text-green-700 ">PHONE NUMBER</h3>
-              <p className="text-gray-700">+251 116 634 401</p>
+              <p className="text-gray-700">011-5-62-15-05</p>
+              <p className="text-gray-700">011-5-62-20-00</p>
+              <p className="text-gray-700">011-5-62-15-25</p>
             </div>
           </div>
 
@@ -119,7 +121,7 @@ export function ContactUs() {
   />
   <div className="relative z-10 flex flex-col items-center justify-center h-full">
     <a
-      href="https://www.google.com/maps/place/Dasset+Building/@8.9909779,38.7916002,17z/data=!3m1!4b1!4m6!3m5!1s0x164b84e3dece8e99:0xf406ae3387722a80!8m2!3d8.9909726!4d38.7941751!16s%2Fg%2F11hb58cx05?entry=ttu"
+      href="https://www.google.com/maps/place/Dembel+City+Center/@9.0049771,38.7644891,17z/data=!3m1!4b1!4m6!3m5!1s0x164b85b039c25bc1:0x941677a8f60160fe!8m2!3d9.0049718!4d38.767064!16s%2Fm%2F04zzvsb?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"
       target="_blank"
       rel="noopener noreferrer"
       className="flex flex-col items-center text-green-700 font-semibold text-lg mb-4"
