@@ -27,6 +27,7 @@ export function ContactUs() {
             <div>
               <h3 className="text-xl font-semibold text-green-700">ADDRESS</h3>
               <p className="text-gray-700">Addis Ababa, Ethiopia</p>
+              <p className="text-gray-700">Dembel City Center 5th floor</p>
             </div>
           </div>
 
