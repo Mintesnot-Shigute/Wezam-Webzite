@@ -17,7 +17,7 @@ function Navbar() {
         <div className="container mx-auto flex justify-between items-center px-4 sm:px-6 lg:px-8">
           <div className="flex items-center">
             {/* Text logo */}
-            <a href="/#intro" class="text-2xl sm:text-4xl font-bold text-white transition-colors duration-300 ease-in-out font-artegra-slab">
+            <a href="/#intro" class="text-2xl sm:text-4xl font-bold text-white transition-colors duration-300 ease-in-out font-artegra-slab hover:text-yellow-400">
   wezam
 </a>
 
